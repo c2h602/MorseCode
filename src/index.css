@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&family=Titillium+Web&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: ghostwhite;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  background: #fafafa;
+}
+
+main {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.content,
+p {
+  padding: 1rem 0;
+}
+
+textarea {
+  color: initial;
+  display: inline-block;
+  background-color: white;
+  width: 80%;
+  height: 150px;
+  resize: none;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  font: 400 20px 'Roboto';
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(252, 247, 252);
+  border-radius: 10px;
+  padding: 2px;
+  box-shadow: 0 0 5px #719ECE;
+  outline: none;
+
+}
+
+.row{
+  display: flex;
+}
+
+label {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  vertical-align: top;
+  margin-bottom: 8px;
+
+}
+
+.inputText {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+}
+
+.morseCode {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+}
